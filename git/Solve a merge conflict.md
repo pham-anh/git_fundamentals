@@ -1,3 +1,5 @@
+# Solve a merge conflict
+
 1. Open the conflict file
 1. Find the conflict content. The conflict content is wrapped between `<<<<<` and `>>>>>>`
 1. Decide what you keep and what to remove among the conflicts.
