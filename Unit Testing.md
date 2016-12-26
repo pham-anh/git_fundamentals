@@ -1,1 +1,1 @@
-1. [Trials](Trials)
+1. [Trials](Trials.md)
