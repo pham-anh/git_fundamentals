@@ -1,4 +1,4 @@
-### Test code
+# Test code
 
 ```php
 <?php
@@ -16,7 +16,7 @@ public function test_action_create_withNoPost_returns_presenterAccountCreate(){
 
 
 
-### Result
+# Result
 
 ```diff
 1) Test_Controller_Account::test_action_create_withNoPost_returns_presenterAccountCreate
