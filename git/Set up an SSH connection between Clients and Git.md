@@ -16,8 +16,11 @@
  ## Add the private key into the ssh-agent
  
 1. Start ssh-agent
+
  `eval $(ssh-agent -s)`
+ 
 1. Add your private key
+
   `ssh-add ~/.ssh/xxx_rsa`
   
  
