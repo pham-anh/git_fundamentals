@@ -1,14 +1,14 @@
-### Preparation
+# Preparation
 
 * Auth package configuration (e.g. simpleauth)
 * App's migration files
 
-### Command
+# Command
 
 ```shell
 php oil refine migrate -all
 ```
-### The result after running
+# The result after running
 
 * Command output
 
