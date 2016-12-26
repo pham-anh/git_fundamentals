@@ -1,10 +1,10 @@
-### Overview
+# Overview
 
 * Git is a Distributed Version Control System ([DVCS](https://en.wikipedia.org/wiki/Distributed_version_control))
 * You can work remotely with a remote git repository _(like the way you work with Subversion)_
 * Or you can work locally (e.g. in your PC) with a local git repository _(this is very different from Subversion)_
 
-### Preparation
+# Preparation
 
 1. Start your git command line interface
 2. Create a directory (or you can use an available directory if you like). Here I create a new directory name `local_git`
@@ -29,7 +29,7 @@
 
  `$ git config --global --list`
 
-### You will need to remember these things
+# You will need to remember these things
 
 1. Always read and make sure you understand the output of every command you run
 2. If there is a command that you don't understand, you can use `--help` option to ask git about that command
@@ -37,7 +37,7 @@
  e.g. `git branch --help`
 
 
-### Let's begin working locally with git as simple as possible
+# Let's begin working locally with git as simple as possible
 
 1. Firstly, you need to change the working directory into a git repository (also called **initialize a git repo**)
 
@@ -102,7 +102,7 @@
 
 Here you have done a simple cycle to commit code to the local repo.
 
-### Conclusion
+# Conclusion
 
 * By working with a local repo, you can work even there is no internet to connect to a remote repo  
  _(As with SVN, you cannot commit your changes if there is no internet connection)_
