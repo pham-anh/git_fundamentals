@@ -14,12 +14,12 @@ CREATE TABLE `users` (
 ENGINE = InnoDB  DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 ```
 
-#### Note
+### Note
 
 * The reference table, column must exist
 * The data type of the target columns must be the same
 
-#### How to use `FuelPHP` with this
+### How to use `FuelPHP` with this
 
 ```sql
 \DBUtil::create_table(
@@ -49,7 +49,7 @@ ENGINE = InnoDB  DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 * Refs: http://fuelphp.com/docs/classes/database/dbutil.html#/method_create_table
 
-#### What if the migration contains field settings that is unknown to `FuelPHP`?
+### What if the migration contains field settings that is unknown to `FuelPHP`?
 
 e.g.
 
