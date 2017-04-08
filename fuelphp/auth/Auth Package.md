@@ -53,7 +53,7 @@ Simple auth stores users'data in db, group + role + right in `simpleauth.php`
 * Config db information
 * Run `php oil refine migrate --packages=auth`
 
-**In case of `simpleauth`, the followings will be created based on files in `fuel/packages/auth/migrations/...`**
+**In case of `ormauth`, the followings will be created based on files in `fuel/packages/auth/migrations/...`**
 
 * `fuel/app/config/env/migrations.php`
 ```php
